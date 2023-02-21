@@ -1,10 +1,10 @@
-console.log(this); // {}
+console.log(this);
 
-// var game = "cricket";
+var game = "cricket";
 
-// function sayName() {
-//   var name = "Govind";
-//   console.log(this);
-// }
+function sayName() {
+  var name = "Govind";
+  console.log(this);
+}
 
-// sayName();
+sayName();
