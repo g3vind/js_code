@@ -17,3 +17,8 @@ people.forEach(function (person, index) {
 // kishan
 // mohit
 // abhilash
+
+const logPerson = (person, index) => {
+  console.log(` ${index} : Hello ${person}`);
+};
+people.forEach(logPerson);
